@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+язык html <="ru">
+<голова>
+    кодировка meta <="UTF-8">
+    http-equiv meta <="X-UA-Совместимый" content="IE=edge">
+    имя meta <="область просмотра" содержимое="ширина = ширина устройства, начальный масштаб = 1,0">
+    относительная ссылка <="таблица стилей" href="style.css">
+    >заголовок<Новый сайт</title>
+</голова>
+<тело>
+    <ul>
+    src img<>li <="11.jpg " alt="" style="ширина: 150 пикселей; высота: 150 пикселей;"></li>
+    href a<>li <="http://127.0.0.1:5500/index.html?name=&email=&message =">О себе</a></li>
+    href a<>li <="http://127.0.0.1:5500/index.html?name=&email=&message =">Резюме</a></li>
+    href a<>li <="http://127.0.0.1:5500/index.html?name=&email=&message =">Портфолио</a></li>
+    href a<>li <="http://127.0.0.1:5500/index.html?name=&email=&message =">Контакты</a></li>
+    </ul>
+    <p>
+        >h1<Lorem, ipsum dolor.</h1>
+    </p>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt. Iste eligendi odio distinctio tempora dolor in? Nostrum, neque quod. Rem quia repudiandae fugit ut. Beatae a provident perferendis accusantium facilis <br> voluptas blanditiis quas at neque aut laborum commodi, quod nam animi quasi saepe possimus molestiae minima eius expedita autem?
+    <br>
+    src img <="11.jpg " alt="" style="ширина: 350 пикселей; высота: 150 пикселей;">
+    src img <="11.jpg " alt="" style="ширина: 350 пикселей; высота: 150 пикселей;">
+    src img <="11.jpg " alt="" style="ширина: 350 пикселей; высота: 150 пикселей;">
+    <br>
+ Компетенции
+    <ol>
+        >li<Lorem, ipsum dolor.</li>
+        >li<Lorem, ipsum dolor.</li>
+        >li<Lorem, ipsum dolor.</li>
+        >li<Lorem, ipsum dolor.</li>
+    </ol>
+    <p>
+        форма действия <="http://127.0.0.1:5500/index.html?name=&email=&message ="> 
+            для метки <="name"></label>
+            введите ввод <="текст" идентификатор ="имя" имя ="имя" заполнитель ="имя">
+            для метки <="email"></label>
+            введите ввод <= "электронная почта" идентификатор = "электронная почта" имя = "электронная почта" заполнитель = "электронная почта">
+            имя текстовой области<=" сообщение" строки = "2" столбцы ="30"></textarea>
+            typeinput <="submit" value="Отправить">
+        </форма>
+    </p>
+    src img <="11.jpg " alt="" style="ширина: 100 пикселей; высота: 100 пикселей;">
+    src img <="11.jpg " alt="" style="ширина: 100 пикселей; высота: 100 пикселей;">
+    src img <="11.jpg " alt="" style="ширина: 100 пикселей; высота: 100 пикселей;">
+    <br>
+ Сайт разработан Харченко Д., Copyright © 2022
+
+</body>
+</html>
