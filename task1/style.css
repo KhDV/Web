@@ -47,11 +47,37 @@ h1 {
 }
 p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align:left;
 }
 section{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 42%;
+}
+form{
+    border-style:dashed;
+    color:black;
+    width: 50%;
+    height:auto;
+}
+footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+#submit{
+    background-color: black;
+    color: #fff;
+}
+#submit:hover{
+    background-color:bisque;
+    color: #000;
+}
+.round{
+    border-radius: 100px;
+    border: 3px solid black;
+    box-shadow: 0 0 7px #666;
+}
+.foot{
+    color:beige;
 }
