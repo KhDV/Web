@@ -1,3 +1,10 @@
+header {
+    background-color: aliceblue;
+}
 body {
-    color: blueviolet;
+    color:coral;
+    background-color: black;
+}
+h1 {
+    color:cornflowerblue;
 }
