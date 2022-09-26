@@ -1,10 +1,57 @@
-header {
-    background-color: aliceblue;
-}
 body {
-    color:coral;
-    background-color: black;
+    color:black;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li{
+    float: left;
+    font-family: fantasy;
+}
+ul li a{
+    color: bisque;
+    display: block;
+    height: 50px;
+    padding: 0 135px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+ul li a:hover{
+    background-color: bisque;
+    color: #000;
 }
 h1 {
-    color:cornflowerblue;
+    color:black;
+    text-align: center;
+    font-family: fantasy;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:left;
+}
+section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
 }
