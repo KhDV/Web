@@ -81,3 +81,11 @@ footer{
 .foot{
     color:beige;
 }
+#reset{
+    background-color: black;
+    color: #fff;
+}
+#reset:hover{
+    background-color:bisque;
+    color: #000;
+}
