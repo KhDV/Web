@@ -60,6 +60,18 @@ form{
     width: 50%;
     height:auto;
 }
+#name{
+    background-color:#000;
+    color: #fff;
+}
+#email{
+    background-color:#000;
+    color: #fff;
+}
+#message{
+    background-color:#000;
+    color: #fff;
+}
 footer{
     width: 100%;
     display: block;
@@ -67,7 +79,8 @@ footer{
 }
 #submit{
     background-color: black;
-    color: #fff;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #submit:hover{
     background-color:bisque;
@@ -83,7 +96,8 @@ footer{
 }
 #reset{
     background-color: black;
-    color: #fff;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #reset:hover{
     background-color:bisque;
