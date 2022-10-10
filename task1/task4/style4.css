@@ -1,0 +1,25 @@
+header{
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.parent{
+    display: flex;
+}
+
+.content{
+    background-color: burlywood;
+    height: 400px;
+    flex-basis: 80%;
+}
+
+.dop_info{
+    background-color: coral;
+    height: 400px;
+    flex-basis: 20%;
+}
+
+footer{
+    background-color:cornsilk;
+    height: 200px;
+}
