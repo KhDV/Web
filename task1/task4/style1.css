@@ -7,35 +7,38 @@ header{
     width: 100%;
     margin: 0 auto;
 }
-nav:before{
-    content:'';
-    display: block;
+nav{
+    display: flex;
+    justify-content: space-around;
     height: 50px;
     width: 100%;
     background: #000;
-    position: absolute;
     left: 0;
-    z-index: -1;
 }
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
     height: 50px;
+    width: 100%;
+    display: flex;
 }
 ul li{
-    float: left;
     font-family: fantasy;
+    flex-basis: 25%;
+    text-align: center;
 }
 ul li a{
     color: bisque;
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 50px;
-    padding: 0 135px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px;
+    width: 100%;
 }
+
 ul li a:hover{
     background-color: bisque;
     color: #000;

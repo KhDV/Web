@@ -1,35 +1,39 @@
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1200px){
 body {
     color:black;
     background-color:bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
 nav{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color:bisque;
-    color: black;
-    z-index: -1;
+    flex-wrap: wrap;
+    height: 50px;
+    background-color:black;
+    color: bisque;
 }
 nav ul{
     display: flex;
-    flex-direction: column;
-    justify-content:left;
-    color: black;
+    justify-content:space-between;
+    align-items: center;
+    color: bisque;
     margin: 0;
     padding: 0;
     list-style: none;
     width: 100%;
 }
 ul li{
-    float: none;
     font-family: fantasy;
     display: flex;
-    justify-content: left;
+    flex-direction:row ;
+    justify-content: flex-start;
 }
 ul li a{
-    color: black;
+    color: bisque;
     display: flex;
     height: 50px;
     padding: 0;
