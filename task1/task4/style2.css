@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 650px) and (max-width: 1200px){
 body {
     color:black;
     background-color:bisque;
@@ -11,8 +11,7 @@ header{
 }
 nav{
     display: flex;
-    flex-wrap: wrap;
-    height: 100px;
+    height: 50px;
     background-color:black;
     color: bisque;
 }
@@ -43,14 +42,18 @@ ul li a{
     flex-direction: row;
 }
 ul li a:hover{
-    background-color: black;
-    color: bisque;
+    background-color: bisque;
+    color: black;
 }
 .content{
-    display: flex;
-    justify-content: right;
     color:black;
     text-align: center;
     font-family: fantasy;
+}
+h1{
+    text-align: center;
+}
+ol{
+    text-align: left;
 }
 }
