@@ -1,3 +1,23 @@
+@font-face {
+	font-family: 'Exo_r'; 
+	src: url(fonts/Exo-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_r_i'; 
+	src: url(fonts/Exo-Italic.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_m'; 
+	src: url(fonts/Exo-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_t'; 
+	src: url(fonts/Exo-Thin.ttf); 
+}
+
 body{
     display: block;
     margin: 0 ;
@@ -6,14 +26,35 @@ body{
 }
 
 div.odin{
-    background-image: url(1.jpg);
+    background: url(1.jpg) no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 0;
     width: 100%;
     height: 820px; 
     text-align: center;
     margin: 0;
+    font-family: 'Exo_t';
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #282828;
+}
+.odin1 {
+    display: flex;
+    width: 60%;
+}
+.odin2{
+    flex-direction: column;
+}
+/*
+.odin1 *{
+    margin: 0;
+}
+*/
+div.odin p{
+    font-family: 'Exo_r';
+    font-size: 14px;
+    color: #868789;
 }
 div.odin h1{
     margin-top: 0;
