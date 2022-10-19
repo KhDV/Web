@@ -33,18 +33,22 @@ div.odin{
     text-align: center;
     margin: 0;
     font-family: 'Exo_t';
-    font-size: 48px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #282828;
 }
 .odin1 {
     display: flex;
     width: 60%;
+    flex-direction: column;
 }
 .odin2{
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 /*
 .odin1 *{
@@ -55,40 +59,113 @@ div.odin p{
     font-family: 'Exo_r';
     font-size: 14px;
     color: #868789;
+    margin-top: 10px;
 }
 div.odin h1{
-    margin-top: 0;
+    margin: 0;
+    font-family: 'Exo_t';
+}
+#play{
+    background: url(10.png) no-repeat;
+    background-position: 55% 50%;
+    background-color: #8186a3;
+    height: 59px;
+    width: 59px;
+    border-radius: 50px;
+    border: none;
+    margin: 25px;
+}
+#trynow{
+    width: 190px;
+    height: 50px;
+    background-color: #ff6d6d;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Exo_r';
+    font-size: 16px;
+    align-items: center;
+    margin: 5px;
 }
 div.dva{
     display: flex;
     height: 720px;
+}
+.dva1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dva12{
+}
+.dva12 p.p{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #282828;
+}
+.dvatxt{
+    display: flex;
+}
+.dvatxt h1{
+    margin: 0;
+}
+.dvatxt p{
+    margin: 0;
+    font-size: 40px;
+    align-self: flex-end;
+}
+.dva1 p{
+    margin: 0;
+}
+.dva1 h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
 }
 div.dva2{
     background-image: url(2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 65%;
     height: 720px; 
     margin: 0 auto;
 }
+
 div.tri{
-    background-image: url(3.jpg);
+    background: url(3.jpg) no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
     height: 675px; 
     margin-top: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div.tri0{
-    height: 30%;
+.img{
+    background: url(earphones.png) no-repeat center;
+    background-position: 90% 0%;
+    width: 100%;
+    height: 280px;
+}
+.tri0 h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
+    margin: 0;
 }
 div.tri123{
     display: flex;
     height: 70%;
     align-items: center;
+    justify-content: space-around;
+    font-family: 'Exo_m';
+    color: #282828;
+}
+.tri123 h1{
+    font-size: 22px;
+}
+.tri123 p{
+    font-size: 16px;
 }
 div.four{
     background-image: url(4.png);
@@ -153,7 +230,14 @@ footer{
     height: 332px;
 }
 .red{
-    color: red;
+    color: #ff6d6d;
+    font-family: 'Exo_m';
+}
+.newred{
+    color: #ff6d6d;
+    font-family: 'Exo_m';
+    font-size: 16px;
+    margin: 0;
 }
 h1{
     margin-top: 0;
