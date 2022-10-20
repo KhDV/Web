@@ -87,9 +87,15 @@ div.odin h1{
     align-items: center;
     margin: 5px;
 }
+
+
 div.dva{
     display: flex;
     height: 720px;
+}
+.dva112{
+    justify-content: center;
+    align-content: center;
 }
 .dva1{
     display: flex;
@@ -97,6 +103,9 @@ div.dva{
     justify-content: center;
 }
 .dva12{
+    width: 70%;
+    align-self: center;
+    margin-top: 180px;
 }
 .dva12 p.p{
     font-family: 'Exo_m';
@@ -126,7 +135,7 @@ div.dva2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 65%;
+    width: 85%;
     height: 720px; 
     margin: 0 auto;
 }
@@ -140,13 +149,18 @@ div.tri{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 .img{
     background: url(earphones.png) no-repeat center;
-    background-position: 90% 0%;
+    background-position: 90% -50%;
     width: 100%;
-    height: 280px;
+    height: 230px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.tritext{
+    align-self: flex-end;
 }
 .tri0 h1{
     font-family: 'Exo_m';
@@ -155,7 +169,7 @@ div.tri{
 }
 div.tri123{
     display: flex;
-    height: 70%;
+    height: 60%;
     align-items: center;
     justify-content: space-around;
     font-family: 'Exo_m';
@@ -179,10 +193,28 @@ div.four{
 div.four1{
     display: flex;
     height: 550px;
-    width: 60%;
+    width: 55%;
 }
 div.four2{
-    width: 40%;
+    width: 45%;
+    display: flex;
+}
+.fourtext{
+    align-self: center;
+    height: 50%;
+}
+.fourtext p{
+    margin: 0;
+}
+.fourtext h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
+    color: #000;
+}
+.fourtext p.text{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #282828;
 }
 .k{
     align-self: center;
@@ -190,28 +222,61 @@ div.four2{
 }
 div.five{
     background-image: url(6.png);
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 650px; 
     margin: 0 auto;
-
 }
 div.five123{
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+    height: 75%;
+}
+.five123 h1{
+    font-family: 'Exo_m';
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0;
+}
+.five123 p.text{
+    font-family: 'Exo_r_i';
+    font-size: 16px;
+    color: #b3b3b5;
+    margin-top: 20px;
 }
 div.five4{
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-end;
+    width: 99%;
 }
+
 div.six{
+    background-color: #f6f5f3;
     height: 755px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.sixtext{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    justify-content: flex-end;
+}
+.sixtext p{
+    margin:0;
+}
+.sixtext p.text{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #6e6e6d;
 }
 div.six1{
     align-self: flex-end;
