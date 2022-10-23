@@ -311,27 +311,28 @@ div.seven{
 }
 form{
     display: flex;
-    width: 80%;
+    width: 100%;
+    justify-content: space-evenly;
 }
 #fullname{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 263px;
+    width: 265px;
     height: 50px;
 }
 #email{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 263px;
+    width: 265px;
     height: 50px;
 }
 #pass{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 263px;
+    width: 265px;
     height: 50px;
 }
 ::-webkit-input-placeholder {color: #ffffff;}
@@ -341,7 +342,7 @@ input:focus ~ label{
     justify-items: center;
 }
 form #trynow2{
-    width: 216px;
+    width: 265px;
     height: 50px;
     background-color: #ff6d6d;
     color: #ffffff;
@@ -352,7 +353,16 @@ form #trynow2{
     align-items: center;
     margin: 5px;
 }
+.knopka{
+    height: 50px;
+}
+.arrow{
+    float: left;
+    margin: 8px 18px 0 0;
+}
 .knopka h3{
+    left: 10px;
+    margin: 0 10px 0 0;
     font-family: 'Exo_r';
     font-size: 16px;
     color: #ffffff;
@@ -372,9 +382,67 @@ form #trynow2{
     text-decoration: underline;
 }
 footer{
+    background: url(11.png) no-repeat center;
+    background-position: 109% 103%;
     display: flex;
     justify-content: space-between;
     height: 332px;
+}
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+}
+.f2{
+    height: 200px;
+}
+.f3{
+    height: 200px;
+}
+.f4{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#email2{
+    background-color: #f6f6f6;
+    border: #f1f1f2a3;
+    border-radius: 3px;
+    width: 215px;
+    color: grey;
+}
+.f41{
+    display: flex;
+
+}
+.knopka2{
+    background: url(16.png) no-repeat center;
+    width: 52px;
+    height: 49px;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 50px;
+}
+.footer h1{
+    font-family: 'Exo_r';
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #868686;
 }
 .red{
     color: #ff6d6d;
