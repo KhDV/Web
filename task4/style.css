@@ -293,6 +293,11 @@ div.seven{
     display: flex;
     flex-direction: column;
 }
+.seven2{
+    display: flex;
+    height: 200px;
+    margin: 0 50px;
+}
 .seventext{
     display: flex;
     flex-direction: column;
@@ -311,28 +316,29 @@ div.seven{
 }
 form{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-evenly;
+    align-items: center;
 }
 #fullname{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 265px;
+    width: 280px;
     height: 50px;
 }
 #email{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 265px;
+    width: 280px;
     height: 50px;
 }
 #pass{
     background-color: #454c77;
     border: none;
     border-radius: 2px;
-    width: 265px;
+    width: 280px;
     height: 50px;
 }
 ::-webkit-input-placeholder {color: #ffffff;}
@@ -341,7 +347,7 @@ input:focus ~ label{
     display: flex;
     justify-items: center;
 }
-form #trynow2{
+.seven2 #trynow2{
     width: 265px;
     height: 50px;
     background-color: #ff6d6d;
@@ -354,7 +360,9 @@ form #trynow2{
     margin: 5px;
 }
 .knopka{
-    height: 50px;
+    height: 100px;
+    align-self: center;
+    margin-bottom: 50px;
 }
 .arrow{
     float: left;
@@ -362,7 +370,7 @@ form #trynow2{
 }
 .knopka h3{
     left: 10px;
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
     font-family: 'Exo_r';
     font-size: 16px;
     color: #ffffff;
@@ -370,7 +378,6 @@ form #trynow2{
 .seven1{
     height: 80px;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     text-align: center;
     font-family: 'Exo_r';
@@ -383,7 +390,7 @@ form #trynow2{
 }
 footer{
     background: url(11.png) no-repeat center;
-    background-position: 109% 103%;
+    background-position: 100% 99%;
     display: flex;
     justify-content: space-between;
     height: 332px;
@@ -443,6 +450,9 @@ section{
     font-family: 'Exo_m';
     font-size: 16px;
     color: #868686;
+}
+span .p{
+    height: 100px;
 }
 .red{
     color: #ff6d6d;
