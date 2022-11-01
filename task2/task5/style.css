@@ -14,8 +14,15 @@ button{
     width: 250px;
     height: 70px;
     font-size: 30px;
-    background-color: blueviolet;
     border-radius: 3px;
     border-style: double;
+
+}
+.light{
+    background-color: black;
     color: white;
+}
+.dark{
+    background-color: white;
+    color: black;
 }

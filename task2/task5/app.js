@@ -1,9 +1,14 @@
-var button = getElementById('button_color');
+var btn = document.getElementById('btn');
 
-button.OnClick() = function(){
 
+btn.onmouseover = function(){
+    document.body.style.background = "red";
+}
+btn.onmouseleave = function(){
+    document.body.style.background = "blue";
 }
 
-function fun(){
-    
-}
+btn.addEventListener('click', function(){
+    btn.classList.toggle('light');
+    btn.classList.toggle('dark');
+})
