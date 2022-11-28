@@ -1,0 +1,136 @@
+body {
+    color:black;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .3s ease;
+}
+.dark-mode{
+    color: bisque;
+    background-color: #000;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    left: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+ul li{
+    font-family: fantasy;
+    flex-basis: 25%;
+    text-align: center;
+}
+ul li a{
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    width: 100%;
+}
+
+ul li a:hover{
+    background-color: bisque;
+    color: #000;
+}
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+}
+form{
+    border-style:dashed;
+    color:black;
+    width: auto;
+    height:auto;
+}
+#name{
+    background-color:#000;
+    color: #fff;
+}
+#email{
+    background-color:#000;
+    color: #fff;
+}
+#message{
+    background-color:#000;
+    color: #fff;
+}
+footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+#submit{
+    background-color: black;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit:hover{
+    background-color:bisque;
+    color: #000;
+}
+.round{
+    border-radius: 100px;
+    border: 3px solid black;
+    box-shadow: 0 0 7px #666;
+}
+.foot{
+    color:beige;
+}
+#reset{
+    background-color: black;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#reset:hover{
+    background-color:bisque;
+    color: #000;
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+#prikol{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    transition: 0.09s;
+
+    background-color: black;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin: 0;
+    width: auto;
+    height: 20px;
+    background-color: black;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
