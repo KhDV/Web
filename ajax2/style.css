@@ -33,7 +33,7 @@ ul li{
     flex-basis: 25%;
     text-align: center;
 }
-ul li a{
+ul li {
     color: bisque;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ ul li a{
     width: 100%;
 }
 
-ul li a:hover{
+ul li:hover{
     background-color: bisque;
     color: #000;
 }

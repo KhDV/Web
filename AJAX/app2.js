@@ -1,3 +1,5 @@
+console.log('hello')
+
 document.body.onload = () => {
     console.log('hello onload')
     let request1 = new XMLHttpRequest;
