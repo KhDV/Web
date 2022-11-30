@@ -12,8 +12,9 @@ function changeHTML(content){
         }
     }
 }
+console.log('hello')
 
-li[0].onclink = () => {
+li[0].onclick = () => {
     changeHTML('о себе.html')
 }
 
@@ -24,6 +25,6 @@ li[1].onclick = () => {
 li[2].onclick = () => {
     changeHTML('портфолио.html')
 }
-li[3].onclick = () => {
+li[3].onclick = () => {  
     changeHTML('контакты.html')
 }
