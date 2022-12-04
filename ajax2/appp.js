@@ -1,5 +1,5 @@
 var li = document.getElementsByTagName('li')
-var cont = document.getElementsByClassName('content')
+var cont = document.getElementById('content')
 
 
 function changeHTML(content){
