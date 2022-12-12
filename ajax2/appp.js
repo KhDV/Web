@@ -28,3 +28,9 @@ li[2].onclick = () => {
 li[3].onclick = () => {  
     changeHTML('контакты.html')
 }
+
+localStorage.setItem('changeHTML', changeHTML)
+function onload() {
+    document.body.classlist.toggle('li', localStorage.getItem('chandeHTML') == 'true' )
+}
+document.addEventListener('DOMContentLoaded', onload)
