@@ -46,6 +46,15 @@ if (isset($_GET['registration'])) {
 
       // написать проверку на существование такого аккаунта с таким же логином с использованием SELECT
       // (как использовать SELECT смотрите в нажатии на кнопку Авторизоваться)
+      $sql = 'SELECT count(login) as count FROM users WHERE login=?'; //записываем sql в котором считаем количество найденных id
+      $query = $pdo->prepare($sql); 
+      $query->execute([$login]);
+      $count_users = $query->fetch(); //получаем одну строчку
+      if ((int)$count_users['count'] === 0) { //Если таких пользователей больше 0
+      //здесь код регистрации
+      } else {
+      exit('Логин уже занят'); //делаем выход из скрипта. Сюда можно написать что угодно
+      }
 
       $request = "INSERT INTO users (login, password) VALUES ('$login', '$password')";
       $dataBase->query($request);
