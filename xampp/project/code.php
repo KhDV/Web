@@ -1,22 +1,22 @@
 <?php
 // функция подключения
-function Connect_dataBase()
+function Connect_dataBase() // подключаем базу данных
 {
-  $serverName = "localhost";
-  $db_user = "root";
-  $db_pass = "";
+  $serverName = "localhost"; // имя хоста, на котором выполняется текущий скрипт
+  $db_user = "root"; // константа-логин для инициализации и подключения к базе данных
+  $db_pass = "";     //константа-пароль для инициализации и подключения к базе данных
   $db_name = "my_bd"; // название базы данных
 
-  $dataBase = new mysqli($serverName, $db_user, $db_pass, $db_name);
-  return $dataBase;
+  $dataBase = new mysqli($serverName, $db_user, $db_pass, $db_name); //конструктор, в который передаются настройки подключения
+  return $dataBase; //прекращение выполнения текущей функции и возвращение аргумента как значения данной функции
 }
 
 // нажатие на кнопку Авториззоваться
-if (isset($_GET['autorisation'])) {
-  $login = $_GET['login'];
-  $password = $_GET['password'];
-  if ($login != null && $password != null) {
-    $dataBase = Connect_dataBase();
+if (isset($_GET['autorisation'])) { //начало условия, isset () вернёт false при проверке переменной которая была установлена значением null, вернет true, если все параметры определены
+  $login = $_GET['login']; //$_GET - автоматическая глобальная переменная
+  $password = $_GET['password']; //присваивание переменной
+  if ($login != null && $password != null) { // если переменные логин и пароль определены
+    $dataBase = Connect_dataBase(); //подключение к бд
 
     $request = "SELECT login, password FROM users WHERE login = '$login' AND password = '$password'";
 
